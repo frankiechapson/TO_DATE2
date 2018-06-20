@@ -34,6 +34,6 @@ begin
     end if;
     return V_DATE;
 exception when others then
-    return null;  -- It is not a date
+    return null;  -- It is not a date or wrong format
 end;
 /
